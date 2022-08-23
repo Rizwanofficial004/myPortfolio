@@ -1,0 +1,47 @@
+@import '~antd/dist/antd.less';
+
+.header-style{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.ant-layout {
+    background: #0d0d0a;
+}
+
+.ant-layout-header {
+    height: 48px;
+    padding: 0 50px;
+    line-height: 48px;
+    background: #171813;
+}
+
+.ant-menu-item, .ant-menu-submenu-title {
+  margin-right: 10px;
+}
+
+.content-style{
+    margin: 80px 80px;
+    padding: 24;
+    // min-height: 300px;
+}
+
+.ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-sub, .ant-menu.ant-menu-dark .ant-menu-sub {
+  background: #171813;
+}
+
+
+
+///***************************** Media Queri ********************************
+
+@media only screen and (max-width: 1024px) {
+  .content-style{
+    margin: 50px
+}
+}
+
+@media only screen and (max-width: 724px) {
+  .content-style{
+    margin: 30px
+}
+}
